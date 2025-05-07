@@ -422,3 +422,5 @@ E:\455\AspNetCoreMvcCustomLogin-main\obj\Debug\net8.0\refint\UsersApp.dll
 E:\455\AspNetCoreMvcCustomLogin-main\obj\Debug\net8.0\UsersApp.pdb
 E:\455\AspNetCoreMvcCustomLogin-main\obj\Debug\net8.0\UsersApp.genruntimeconfig.cache
 E:\455\AspNetCoreMvcCustomLogin-main\obj\Debug\net8.0\ref\UsersApp.dll
+E:\Github repo\Movie-Platform-C-\AspNetCoreMvcCustomLogin-main\obj\Debug\net8.0\UsersApp.dll
+E:\Github repo\Movie-Platform-C-\AspNetCoreMvcCustomLogin-main\obj\Debug\net8.0\refint\UsersApp.dll
