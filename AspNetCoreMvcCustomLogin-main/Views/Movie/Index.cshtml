@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Movie>
+
+@{
+    ViewData["Title"] = "Movie List";
+}
+
+<h1>All Movies</h1>
+
+@foreach (var movie in Model)
+{
+    <div style="margin-bottom: 20px;">
+        <h3>@movie.Title</h3>
+        <img src="@movie.ImageUrl" alt="@movie.Title" width="200" />
+        <p><strong>Category:</strong> @movie.Category?.Name</p>
+        <p>@movie.Description.Substring(0, Math.Min(movie.Description.Length, 150))...</p>
+        <a asp-action="Details" asp-route-id="@movie.Id">View Details</a>
+    </div>
+}
